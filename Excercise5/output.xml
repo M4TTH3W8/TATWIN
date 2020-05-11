@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.7.5 on win32)" generated="20200511 14:40:56.475" rpa="false">
+<suite id="s1" name="Excercise5" source="C:\Users\M4TTH3W\PycharmProjects\Excercise5">
+<suite id="s1-s1" name="HelloWorld" source="C:\Users\M4TTH3W\PycharmProjects\Excercise5\HelloWorld.robot">
+<test id="s1-s1-t1" name="Test 1 - Opening application">
+<kw name="Run application" library="MyKeywords">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>${AppiumURL}</arg>
+<arg>newCommandTimeout=3600</arg>
+<arg>logLevel=Error</arg>
+<arg>platformName=${PlatformName}</arg>
+<arg>platformVersion=${PlatformVersion}</arg>
+<arg>deviceName=${PhoneName}</arg>
+<arg>appPackage=${AppPackage}</arg>
+<arg>appActivity=${AppActivity}</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:40:56.679" endtime="20200511 14:41:07.833"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:09.836" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:07.834" endtime="20200511 14:41:09.836"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:40:56.679" endtime="20200511 14:41:09.836"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:40:56.679" endtime="20200511 14:41:09.837" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="Test 2 - Searching for PK account on youtube">
+<kw name="Search" library="MyKeywords">
+<arguments>
+<arg>Politechnika Koszalinska</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:09.840" level="INFO">Clicking element 'xpath=//android.widget.ImageView[@content-desc="Search"]'.</msg>
+<status status="PASS" starttime="20200511 14:41:09.838" endtime="20200511 14:41:10.767"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:12.768" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:10.767" endtime="20200511 14:41:12.768"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${SearchBar}</arg>
+<arg>${SearchText}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:12.768" level="INFO">Typing text 'Politechnika Koszalinska' into text field 'id=com.google.android.youtube:id/search_edit_text'</msg>
+<status status="PASS" starttime="20200511 14:41:12.768" endtime="20200511 14:41:12.899"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:14.900" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:12.899" endtime="20200511 14:41:14.900"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${SearchResult}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:14.901" level="INFO">Clicking element 'id=com.google.android.youtube:id/text'.</msg>
+<status status="PASS" starttime="20200511 14:41:14.900" endtime="20200511 14:41:15.734"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:17.736" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:15.734" endtime="20200511 14:41:17.736"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:09.837" endtime="20200511 14:41:17.736"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:09.837" endtime="20200511 14:41:17.736" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="Test 3 - Checking account join date">
+<kw name="Channel" library="MyKeywords">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${EnterChannel}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:17.738" level="INFO">Clicking element 'id=com.google.android.youtube:id/channel_name'.</msg>
+<status status="PASS" starttime="20200511 14:41:17.737" endtime="20200511 14:41:18.270"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:17.737" endtime="20200511 14:41:18.270"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:20.272" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:18.270" endtime="20200511 14:41:20.272"></status>
+</kw>
+<kw name="Swipe" library="AppiumLibrary">
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<arguments>
+<arg>600</arg>
+<arg>300</arg>
+<arg>200</arg>
+<arg>300</arg>
+<arg>1000</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:41:20.272" endtime="20200511 14:41:21.550"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${About}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:21.552" level="INFO">Clicking element 'xpath=//android.widget.Button[@content-desc="About"]'.</msg>
+<status status="PASS" starttime="20200511 14:41:21.550" endtime="20200511 14:41:22.187"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:24.189" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:22.187" endtime="20200511 14:41:24.189"></status>
+</kw>
+<kw name="Get Text" library="AppiumLibrary">
+<doc>Get element text (for hybrid and mobile browser use `xpath` locator, others might cause problem)</doc>
+<arguments>
+<arg>${JoinDate}</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20200511 14:41:24.243" level="INFO">Element 'id=com.google.android.youtube:id/joined_date' text is 'Joined Mar 24, 2014' </msg>
+<msg timestamp="20200511 14:41:24.244" level="INFO">${text} = Joined Mar 24, 2014</msg>
+<status status="PASS" starttime="20200511 14:41:24.189" endtime="20200511 14:41:24.244"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:41:25.245" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:41:24.244" endtime="20200511 14:41:25.245"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${text}</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:41:25.245" endtime="20200511 14:41:25.245"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:17.736" endtime="20200511 14:41:25.245" critical="yes"></status>
+</test>
+<test id="s1-s1-t4" name="Test 4 - Going to videos tab, refreshing and selecting first video">
+<kw name="VideoTab" library="MyKeywords">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Videos}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:25.246" level="INFO">Clicking element 'xpath=//android.widget.Button[@content-desc="Videos"]'.</msg>
+<status status="PASS" starttime="20200511 14:41:25.245" endtime="20200511 14:41:25.496"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:27.499" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:25.496" endtime="20200511 14:41:27.499"></status>
+</kw>
+<kw name="Swipe" library="AppiumLibrary">
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<arguments>
+<arg>500</arg>
+<arg>400</arg>
+<arg>500</arg>
+<arg>700</arg>
+<arg>1000</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:41:27.499" endtime="20200511 14:41:28.751"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:30.752" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:28.751" endtime="20200511 14:41:30.752"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Vid}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:30.753" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.support.v4.view.ViewPager/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.ImageView'.</msg>
+<status status="PASS" starttime="20200511 14:41:30.752" endtime="20200511 14:41:32.482"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:34.483" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:32.482" endtime="20200511 14:41:34.483"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:25.245" endtime="20200511 14:41:34.484"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:25.245" endtime="20200511 14:41:34.484" critical="yes"></status>
+</test>
+<test id="s1-s1-t5" name="Test 5 - Copying link to clipboard">
+<kw name="Share" library="MyKeywords">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${share}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:34.486" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.view.ViewGroup/android.widget.FrameLayout/android.widget.GridLayout/android.view.ViewGroup/android.view.ViewGroup[3]'.</msg>
+<status status="PASS" starttime="20200511 14:41:34.485" endtime="20200511 14:41:35.375"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:37.377" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:35.375" endtime="20200511 14:41:37.377"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${copy}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:37.379" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.ImageView'.</msg>
+<status status="PASS" starttime="20200511 14:41:37.377" endtime="20200511 14:41:37.594"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:39.596" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:37.594" endtime="20200511 14:41:39.596"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:34.484" endtime="20200511 14:41:39.596"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:34.484" endtime="20200511 14:41:39.596" critical="yes"></status>
+</test>
+<test id="s1-s1-t6" name="Test 6 - Printing description">
+<kw name="Description" library="MyKeywords">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${expand}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:39.599" level="INFO">Clicking element 'id=com.google.android.youtube:id/expand_button'.</msg>
+<status status="PASS" starttime="20200511 14:41:39.597" endtime="20200511 14:41:39.695"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:41:40.696" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:41:39.695" endtime="20200511 14:41:40.696"></status>
+</kw>
+<kw name="Get Text" library="AppiumLibrary">
+<doc>Get element text (for hybrid and mobile browser use `xpath` locator, others might cause problem)</doc>
+<arguments>
+<arg>${description}</arg>
+</arguments>
+<assign>
+<var>${descr}</var>
+</assign>
+<msg timestamp="20200511 14:41:40.798" level="INFO">Element 'id=com.google.android.youtube:id/description' text is 'Published on Apr 30, 2020
+
+Dr hab. Danuta Zawadzka, prof. PK i dotychczasowa prorektor ds. kształcenia została nowym rektorem Politechniki Koszalińskiej na kadencję 2020-2024. Wybory odbyły się 29 kwietnia 2020 roku. Wzięło w nich udział 70 członków Kolegium Elektorów (KE), reprezentujących wszystkie środowiska Politechniki Koszalińskiej.
+82,9 proc. elektorów opowiedziało się za kandydaturą dr hab. Danuty Zawadzkiej. Tym samym jedyna kandydatka na najwyższy urząd w uczelni uzyskała wymaganą większość głosów. Głosowanie – pierwszy raz w historii Politechniki Koszalińskiej – odbyło się elektronicznie. 
+Wzięło w nim udział 100 proc. uprawnionych. Głosów ważnych również było 100 proc. przy wymaganej większości na poziomie 36 głosów. W wyniku tajnego głosowania, kandydatka uzyskała 58 głosów, czyli 82,9 proc. poparcia.   
+
+Zdjęcie w miniaturze: Adam Paczkowski/Politechnika Koszalińska' </msg>
+<msg timestamp="20200511 14:41:40.799" level="INFO">${descr} = Published on Apr 30, 2020
+
+Dr hab. Danuta Zawadzka, prof. PK i dotychczasowa prorektor ds. kształcenia została nowym rektorem Politechniki Koszalińskiej na kadencję 2020-2024. Wybory odbyły się 29 kwi...</msg>
+<status status="PASS" starttime="20200511 14:41:40.696" endtime="20200511 14:41:40.799"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:41:41.800" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:41:40.800" endtime="20200511 14:41:41.800"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${descr}</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:41:41.800" endtime="20200511 14:41:41.800"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:43.802" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:41.800" endtime="20200511 14:41:43.802"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${expand}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:43.804" level="INFO">Clicking element 'id=com.google.android.youtube:id/expand_button'.</msg>
+<status status="PASS" starttime="20200511 14:41:43.802" endtime="20200511 14:41:43.906"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:39.597" endtime="20200511 14:41:43.906"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:39.596" endtime="20200511 14:41:43.906" critical="yes"></status>
+</test>
+<test id="s1-s1-t7" name="Test 7 - pausing and unpausing video">
+<kw name="Pauseunpause" library="MyKeywords">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Video}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:43.909" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.View'.</msg>
+<status status="PASS" starttime="20200511 14:41:43.907" endtime="20200511 14:41:44.865"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:41:45.866" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:41:44.865" endtime="20200511 14:41:45.866"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${play}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:45.868" level="INFO">Clicking element 'id=com.google.android.youtube:id/player_control_play_pause_replay_button'.</msg>
+<status status="PASS" starttime="20200511 14:41:45.866" endtime="20200511 14:41:46.580"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200511 14:41:49.582" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:46.580" endtime="20200511 14:41:49.582"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${play}</arg>
+</arguments>
+<msg timestamp="20200511 14:41:49.583" level="INFO">Clicking element 'id=com.google.android.youtube:id/player_control_play_pause_replay_button'.</msg>
+<status status="PASS" starttime="20200511 14:41:49.582" endtime="20200511 14:41:49.674"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:51.676" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:49.675" endtime="20200511 14:41:51.676"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:43.907" endtime="20200511 14:41:51.676"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:43.907" endtime="20200511 14:41:51.676" critical="yes"></status>
+</test>
+<test id="s1-s1-t8" name="Test 8 - Checking if coments are enabled">
+<kw name="Comments" library="MyKeywords">
+<kw name="${INDEX} IN RANGE [ 1 | 4 ]" type="for">
+<kw name="${INDEX} = 1" type="foritem">
+<kw name="Swipe" library="AppiumLibrary">
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<arguments>
+<arg>500</arg>
+<arg>1500</arg>
+<arg>500</arg>
+<arg>100</arg>
+<arg>1000</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:41:51.678" endtime="20200511 14:41:53.022"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:55.022" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:53.022" endtime="20200511 14:41:55.022"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:51.678" endtime="20200511 14:41:55.022"></status>
+</kw>
+<kw name="${INDEX} = 2" type="foritem">
+<kw name="Swipe" library="AppiumLibrary">
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<arguments>
+<arg>500</arg>
+<arg>1500</arg>
+<arg>500</arg>
+<arg>100</arg>
+<arg>1000</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:41:55.022" endtime="20200511 14:41:56.345"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:41:58.347" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:56.345" endtime="20200511 14:41:58.347"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:55.022" endtime="20200511 14:41:58.347"></status>
+</kw>
+<kw name="${INDEX} = 3" type="foritem">
+<kw name="Swipe" library="AppiumLibrary">
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<arguments>
+<arg>500</arg>
+<arg>1500</arg>
+<arg>500</arg>
+<arg>100</arg>
+<arg>1000</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:41:58.347" endtime="20200511 14:41:59.635"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:42:01.637" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:41:59.636" endtime="20200511 14:42:01.637"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:58.347" endtime="20200511 14:42:01.637"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:51.678" endtime="20200511 14:42:01.637"></status>
+</kw>
+<kw name="Get Text" library="AppiumLibrary">
+<doc>Get element text (for hybrid and mobile browser use `xpath` locator, others might cause problem)</doc>
+<arguments>
+<arg>${Comment}</arg>
+</arguments>
+<assign>
+<var>${Comments}</var>
+</assign>
+<msg timestamp="20200511 14:42:02.619" level="INFO">Element 'id=com.google.android.youtube:id/message_text' text is 'Comments are turned off' </msg>
+<msg timestamp="20200511 14:42:02.620" level="INFO">${Comments} = Comments are turned off</msg>
+<status status="PASS" starttime="20200511 14:42:01.637" endtime="20200511 14:42:02.620"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:42:03.621" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:42:02.620" endtime="20200511 14:42:03.621"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Comments}</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:42:03.621" endtime="20200511 14:42:03.621"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:51.677" endtime="20200511 14:42:03.622"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:41:51.677" endtime="20200511 14:42:03.622" critical="yes"></status>
+</test>
+<test id="s1-s1-t9" name="Test 9 - Minimize video and return to the home screen">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Video}</arg>
+</arguments>
+<msg timestamp="20200511 14:42:03.623" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.View'.</msg>
+<status status="PASS" starttime="20200511 14:42:03.622" endtime="20200511 14:42:03.884"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:42:04.887" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:42:03.884" endtime="20200511 14:42:04.887"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Minimize}</arg>
+</arguments>
+<msg timestamp="20200511 14:42:04.888" level="INFO">Clicking element 'id=com.google.android.youtube:id/player_collapse_button'.</msg>
+<status status="PASS" starttime="20200511 14:42:04.887" endtime="20200511 14:42:05.376"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:42:06.379" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:42:05.377" endtime="20200511 14:42:06.379"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Back}</arg>
+</arguments>
+<msg timestamp="20200511 14:42:06.383" level="INFO">Clicking element 'xpath=//android.widget.ImageButton[@content-desc="Navigate up"]'.</msg>
+<status status="PASS" starttime="20200511 14:42:06.379" endtime="20200511 14:42:06.950"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:42:07.951" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:42:06.950" endtime="20200511 14:42:07.951"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Back}</arg>
+</arguments>
+<msg timestamp="20200511 14:42:07.952" level="INFO">Clicking element 'xpath=//android.widget.ImageButton[@content-desc="Navigate up"]'.</msg>
+<status status="PASS" starttime="20200511 14:42:07.951" endtime="20200511 14:42:08.388"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200511 14:42:09.389" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200511 14:42:08.388" endtime="20200511 14:42:09.389"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:42:03.622" endtime="20200511 14:42:09.389" critical="yes"></status>
+</test>
+<test id="s1-s1-t10" name="Test 10 - Close minimized video">
+<kw name="Swipe" library="AppiumLibrary">
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<arguments>
+<arg>1025</arg>
+<arg>1500</arg>
+<arg>400</arg>
+<arg>1500</arg>
+<arg>1000</arg>
+</arguments>
+<status status="PASS" starttime="20200511 14:42:09.390" endtime="20200511 14:42:10.667"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200511 14:42:12.669" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200511 14:42:10.667" endtime="20200511 14:42:12.669"></status>
+</kw>
+<status status="PASS" starttime="20200511 14:42:09.390" endtime="20200511 14:42:12.669" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200511 14:40:56.496" endtime="20200511 14:42:12.670"></status>
+</suite>
+<status status="PASS" starttime="20200511 14:40:56.477" endtime="20200511 14:42:12.672"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="10" fail="0">Critical Tests</stat>
+<stat pass="10" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="10" fail="0" id="s1" name="Excercise5">Excercise5</stat>
+<stat pass="10" fail="0" id="s1-s1" name="HelloWorld">Excercise5.HelloWorld</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
