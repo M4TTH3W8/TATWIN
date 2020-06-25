@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63741" started-at="2020-06-24T21:08:52 CEST" finished-at="2020-06-24T21:09:56 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63741" started-at="2020-06-24T21:08:52 CEST" finished-at="2020-06-24T21:09:56 CEST">
+      <class name="project.WoTTank">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:project.WoTTank@23faf8f2]" name="beforeTest" is-config="true" duration-ms="15425" started-at="2020-06-24T21:08:52 CEST" finished-at="2020-06-24T21:09:07 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test1" duration-ms="2778" started-at="2020-06-24T21:09:07 CEST" finished-at="2020-06-24T21:09:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="8" started-at="2020-06-24T21:09:10 CEST" finished-at="2020-06-24T21:09:10 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=WoTTank.Test1()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test10()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test10" duration-ms="1437" started-at="2020-06-24T21:09:10 CEST" finished-at="2020-06-24T21:09:11 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test10 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="5" started-at="2020-06-24T21:09:11 CEST" finished-at="2020-06-24T21:09:11 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test10 status=SUCCESS method=WoTTank.Test10()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test11()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test11" duration-ms="983" started-at="2020-06-24T21:09:11 CEST" finished-at="2020-06-24T21:09:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-24T21:09:12 CEST" finished-at="2020-06-24T21:09:12 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test11 status=SUCCESS method=WoTTank.Test11()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test12()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test12" duration-ms="1002" started-at="2020-06-24T21:09:12 CEST" finished-at="2020-06-24T21:09:13 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:13 CEST" finished-at="2020-06-24T21:09:13 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test12 status=SUCCESS method=WoTTank.Test12()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test13()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test13" duration-ms="1327" started-at="2020-06-24T21:09:13 CEST" finished-at="2020-06-24T21:09:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="2" started-at="2020-06-24T21:09:15 CEST" finished-at="2020-06-24T21:09:15 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test13 status=SUCCESS method=WoTTank.Test13()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test14()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test14" duration-ms="1917" started-at="2020-06-24T21:09:15 CEST" finished-at="2020-06-24T21:09:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test14 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:17 CEST" finished-at="2020-06-24T21:09:17 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test14 status=SUCCESS method=WoTTank.Test14()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test15()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test15" duration-ms="1088" started-at="2020-06-24T21:09:17 CEST" finished-at="2020-06-24T21:09:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test15 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:18 CEST" finished-at="2020-06-24T21:09:18 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test15 status=SUCCESS method=WoTTank.Test15()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test16()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test16" duration-ms="2627" started-at="2020-06-24T21:09:18 CEST" finished-at="2020-06-24T21:09:20 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test16 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:20 CEST" finished-at="2020-06-24T21:09:20 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test16 status=SUCCESS method=WoTTank.Test16()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test17()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test17" duration-ms="1063" started-at="2020-06-24T21:09:20 CEST" finished-at="2020-06-24T21:09:22 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test17 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:22 CEST" finished-at="2020-06-24T21:09:22 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test17 status=SUCCESS method=WoTTank.Test17()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test18()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test18" duration-ms="2750" started-at="2020-06-24T21:09:22 CEST" finished-at="2020-06-24T21:09:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test18 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-24T21:09:24 CEST" finished-at="2020-06-24T21:09:24 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test18 status=SUCCESS method=WoTTank.Test18()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test19()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test19" duration-ms="1574" started-at="2020-06-24T21:09:24 CEST" finished-at="2020-06-24T21:09:26 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test19 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:26 CEST" finished-at="2020-06-24T21:09:26 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test19 status=SUCCESS method=WoTTank.Test19()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test2" duration-ms="2894" started-at="2020-06-24T21:09:26 CEST" finished-at="2020-06-24T21:09:29 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:29 CEST" finished-at="2020-06-24T21:09:29 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=WoTTank.Test2()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test20()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test20" duration-ms="1679" started-at="2020-06-24T21:09:29 CEST" finished-at="2020-06-24T21:09:30 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test20 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:30 CEST" finished-at="2020-06-24T21:09:30 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test20 status=SUCCESS method=WoTTank.Test20()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test21()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test21" duration-ms="4249" started-at="2020-06-24T21:09:30 CEST" finished-at="2020-06-24T21:09:35 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test21 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:35 CEST" finished-at="2020-06-24T21:09:35 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test21 status=SUCCESS method=WoTTank.Test21()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test22()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test22" duration-ms="3615" started-at="2020-06-24T21:09:35 CEST" finished-at="2020-06-24T21:09:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test22 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:38 CEST" finished-at="2020-06-24T21:09:38 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test22 status=SUCCESS method=WoTTank.Test22()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test23()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test23" duration-ms="953" started-at="2020-06-24T21:09:38 CEST" finished-at="2020-06-24T21:09:39 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test23 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="2" started-at="2020-06-24T21:09:39 CEST" finished-at="2020-06-24T21:09:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test23 status=SUCCESS method=WoTTank.Test23()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test3" duration-ms="1440" started-at="2020-06-24T21:09:39 CEST" finished-at="2020-06-24T21:09:41 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:41 CEST" finished-at="2020-06-24T21:09:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test3 status=SUCCESS method=WoTTank.Test3()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test4" duration-ms="1809" started-at="2020-06-24T21:09:41 CEST" finished-at="2020-06-24T21:09:42 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-24T21:09:42 CEST" finished-at="2020-06-24T21:09:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test4 status=SUCCESS method=WoTTank.Test4()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test5()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test5" duration-ms="2964" started-at="2020-06-24T21:09:42 CEST" finished-at="2020-06-24T21:09:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-24T21:09:45 CEST" finished-at="2020-06-24T21:09:45 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test5 status=SUCCESS method=WoTTank.Test5()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test6()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test6" duration-ms="5184" started-at="2020-06-24T21:09:45 CEST" finished-at="2020-06-24T21:09:51 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:51 CEST" finished-at="2020-06-24T21:09:51 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test6 status=SUCCESS method=WoTTank.Test6()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test7()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test7" duration-ms="2683" started-at="2020-06-24T21:09:51 CEST" finished-at="2020-06-24T21:09:53 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:53 CEST" finished-at="2020-06-24T21:09:53 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test7 status=SUCCESS method=WoTTank.Test7()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test8()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test8" duration-ms="1465" started-at="2020-06-24T21:09:53 CEST" finished-at="2020-06-24T21:09:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-06-24T21:09:55 CEST" finished-at="2020-06-24T21:09:55 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test8 status=SUCCESS method=WoTTank.Test8()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Test9()[pri:0, instance:project.WoTTank@23faf8f2]" name="Test9" duration-ms="521" started-at="2020-06-24T21:09:55 CEST" finished-at="2020-06-24T21:09:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:project.WoTTank@23faf8f2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-24T21:09:55 CEST" finished-at="2020-06-24T21:09:55 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test9 status=SUCCESS method=WoTTank.Test9()[pri:0, instance:project.WoTTank@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:project.WoTTank@23faf8f2]" name="afterTest" is-config="true" duration-ms="217" started-at="2020-06-24T21:09:55 CEST" finished-at="2020-06-24T21:09:56 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- project.WoTTank -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

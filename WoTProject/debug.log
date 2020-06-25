@@ -1,0 +1,3 @@
+[0623/154811.231:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0623/154811.232:ERROR:exception_snapshot_win.cc(98)] thread ID 13740 not found in process
+[0623/154811.232:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Podjêto próbê uzyskania dostêpu do procesu koñcz¹cego dzia³anie. (0xc000010a)
